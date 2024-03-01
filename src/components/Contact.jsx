@@ -7,7 +7,7 @@ function Contact() {
     <div className = {styles.contactWrapper} id = "contact">
       <div className = {styles.contactRight}>
         <h1>CONTACT US</h1>
-        <h3>We'd love to capture your story.</h3>
+        <h3>We&#39;d love to capture your story.</h3>
       </div>
       <div className = {styles.contactLeft}>
         <Form/>
