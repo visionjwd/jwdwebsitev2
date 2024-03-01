@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../assets/JWd_Logo_Black.png'
+import logo from '../assets/JWD_Logo_Black.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 
