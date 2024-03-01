@@ -1,0 +1,35 @@
+.contactWrapper{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contactRight{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20%;
+}
+.contactRight h1{
+    font-size: 40px;
+}
+.contactLeft{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 800px){
+    .contactWrapper{
+        width: 90%;
+        height: 90vh;
+        flex-direction: column;
+    }
+    .contactRight{
+        padding-bottom: 0;
+
+    }
+}
