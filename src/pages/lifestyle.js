@@ -10,10 +10,10 @@ import image5 from '../lifestyleGallery/uphigh.jpg'
 import image6 from '../lifestyleGallery/peacheswheel.jpg'
 import image7 from '../lifestyleGallery/nightroof.jpg'
 import image8 from '../lifestyleGallery/fpvvibes.jpg'
-import image9 from '../lifestyleGallery/i5.jpg'
+import image9 from '../lifestyleGallery/I5.jpg'
 import image10 from '../lifestyleGallery/pancake.jpg'
-import image11 from '../lifestyleGallery/i6.jpg'
-import image12 from '../lifestyleGallery/i7.jpg'
+import image11 from '../lifestyleGallery/I6.jpg'
+import image12 from '../lifestyleGallery/I7.jpg'
 
 const images = [
     image1,

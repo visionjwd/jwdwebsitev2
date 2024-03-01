@@ -34,7 +34,7 @@ function automotive() {
   return (
     <div className = {styles.galleryMain}>
       <div className = {styles.galleryHeader}>
-        <h2>Youre a car, but most of all, what you are, what youve become, is a mate. And thats what makes a car special.</h2>
+        <h2>Youre a car, but most of all, what you are, what you&#39;ve become, is a mate. And that&#39;s what makes a car special.</h2>
         <h3>-Jeremy Clarkson-</h3>
       </div>
       <div className = {styles.galleryDisplay}>
