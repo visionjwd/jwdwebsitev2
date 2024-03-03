@@ -98,6 +98,9 @@
     }
 }
 @media only screen and (max-width: 800px){
+    .headSection{
+        height: 60vh;
+    }
     .works{
         width: 90%;
         height: 70vh;

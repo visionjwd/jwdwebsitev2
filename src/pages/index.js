@@ -28,7 +28,7 @@ export default function Home() {
       <div className = {styles.work}>
         <div className = {styles.rightContainer}>
           <div className = {styles.videoContainer}>
-            <video autoPlay muted loop className = {styles.videoplayer}>
+            <video autoPlay muted loop playsInline className = {styles.videoplayer}>
               <source src = {'/webvideo.mp4'} type = "video/mp4"/>
             </video>
           </div>
