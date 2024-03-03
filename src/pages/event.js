@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/gallery.module.css'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
+import Head from 'next/head'
 
 import image1 from '../eventsGallery/i3.jpg'
 import image2 from '../eventsGallery/i9.jpg'
@@ -28,7 +29,13 @@ const images = [
 
 function event() {
   return (
-    <div className = {styles.galleryMain}>
+    <main className = {styles.galleryMain}>
+      <Head>
+        <title>EVENT - JWD CREATIVE HOUSE</title>
+        <meta name="description" content="EEvent coverage by JWD Creative House" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className = {styles.galleryHeader}>
         <h2>The purpose of a camera is to capture memories, not replace them.</h2>
         <h3>-Unknown-</h3>
@@ -52,7 +59,7 @@ function event() {
         </ResponsiveMasonry>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

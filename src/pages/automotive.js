@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/gallery.module.css'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
+import Head from 'next/head'
 
 import image1 from '../automotiveGallery/mercLight.jpg'
 import image2 from '../automotiveGallery/bmwModel.jpg'
@@ -32,7 +33,13 @@ const images = [
 
 function automotive() {
   return (
-    <div className = {styles.galleryMain}>
+    <main className = {styles.galleryMain}>
+      <Head>
+        <title>AUTOMOTIVE - JWD CREATIVE HOUSE</title>
+        <meta name="description" content="Automotive Coverage by JWD Creative House" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className = {styles.galleryHeader}>
         <h2>Youre a car, but most of all, what you are, what you&#39;ve become, is a mate. And that&#39;s what makes a car special.</h2>
         <h3>-Jeremy Clarkson-</h3>
@@ -56,7 +63,7 @@ function automotive() {
         </ResponsiveMasonry>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

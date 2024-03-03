@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/gallery.module.css'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
+import Head from 'next/head'
 
 import image1 from '../lifestyleGallery/daredevil2.jpg'
 import image2 from '../lifestyleGallery/tshirt.jpg'
@@ -32,7 +33,13 @@ const images = [
 
 function lifestyle() {
   return (
-    <div className = {styles.galleryMain}>
+    <main className = {styles.galleryMain}>
+      <Head>
+        <title>LIFESTYLE - JWD CREATIVE HOUSE</title>
+        <meta name="description" content="Lifestyle work by JWD Creative House" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className = {styles.galleryHeader}>
         <h2>LIVE FOR THE THRILL, SO THAT YOU HAVE NO REGRETS</h2>
         <h3>-UNKNOWN-</h3>
@@ -56,7 +63,7 @@ function lifestyle() {
         </ResponsiveMasonry>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/gallery.module.css'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
+import Head from 'next/head'
 
 import image1 from '../cinemagallery/cinema1.jpg'
 import image2 from '../cinemagallery/cinema2.jpg'
@@ -24,7 +25,13 @@ const images = [
 
 function cinema() {
   return (
-    <div className = {styles.galleryMain}>
+    <main className = {styles.galleryMain}>
+      <Head>
+        <title>CINEMATOGRAPHY - JWD CREATIVE HOUSE</title>
+        <meta name="description" content="Cinematography by JWD Creative House" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className = {styles.galleryHeader}>
         <h2></h2>
       </div>
@@ -47,7 +54,7 @@ function cinema() {
         </ResponsiveMasonry>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 

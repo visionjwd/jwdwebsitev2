@@ -1,10 +1,17 @@
 import React from 'react'
 import styles from '../styles/discover.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function discover() {
   return (
     <main className = {styles.discovermain}>
+        <Head>
+        <title>DISCOVER - JWD CREATIVE HOUSE</title>
+        <meta name="description" content="Discover our work for previous clients." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
         <div className = {styles.headSection}>
         <h1>WHAT WE DO</h1>
         <h3>Stories captured for our previous clients</h3>
