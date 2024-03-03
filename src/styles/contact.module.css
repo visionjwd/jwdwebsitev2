@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .contactRight{
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -25,11 +25,14 @@
 @media only screen and (max-width: 800px){
     .contactWrapper{
         width: 90%;
-        height: 90vh;
+        height: 100%;
         flex-direction: column;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     .contactRight{
         padding-bottom: 0;
-
+        align-items: center;
+        padding-left: 5%;
     }
 }
