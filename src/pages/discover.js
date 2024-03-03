@@ -8,6 +8,9 @@ function discover() {
         <div className = {styles.headSection}>
         <h1>WHAT WE DO</h1>
         <h3>Stories captured for our previous clients</h3>
+        <Link href = '/#contact'>
+        <button>TELL US YOUR STORY</button>
+        </Link>
         </div>
         <div className = {styles.works}>
             <div className = {styles.imgsection} id = {styles.auto}>

@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .headSection{
-    width: 100%;
+    width: 90%;
     height: 40vh;
     display: flex;
     flex-direction: column;
