@@ -87,6 +87,9 @@
       height: 100%;
       padding-bottom: 10%;
     }
+    .mainAbout{
+      height: 100%;
+    }
     .leftContainer{
       padding-right: 0;
     }
