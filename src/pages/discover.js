@@ -54,7 +54,9 @@ function discover() {
                 </Link>
             </div>
             <div className = {styles.half}>
-
+                <div className = {styles.webdevimage}>
+                </div>
+                    <h3>Proper, maintainable codebase with user-friendly front end. </h3>
             </div>
 
         </div>

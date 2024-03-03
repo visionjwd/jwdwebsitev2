@@ -54,11 +54,10 @@
   justify-content:center;
 }
 .videoplayer{
-  width: 100%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   z-index: -1;
   border: none;
-  object-fit: cover;
 }
 .leftContainer{
   flex: 40%;
@@ -85,6 +84,8 @@
 @media only screen and (max-width: 800px){
     .aboutText{
       width: 80%;
+      height: 100%;
+      padding-bottom: 10%;
     }
     .leftContainer{
       padding-right: 0;
@@ -96,6 +97,7 @@
       font-size: 15px;
     }
     .work{
+      height: 100%;
       display: flex;
       flex-direction: column;
     }

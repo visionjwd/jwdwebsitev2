@@ -75,13 +75,23 @@
     align-items: center;
 }
 .half{
-    width: 100%;
+    flex: 50%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.webdevimage{
+    width: 90%;
+    height: 50%;
+    background: url('../assets/webdev.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 1200px){
     .works{
         height: 30vh;

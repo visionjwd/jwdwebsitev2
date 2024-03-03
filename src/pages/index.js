@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
-import Video from 'next-video';
-import webvid from '../../videos/webvideo.mp4'
 import Contact from '@/components/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -31,7 +28,9 @@ export default function Home() {
       <div className = {styles.work}>
         <div className = {styles.rightContainer}>
           <div className = {styles.videoContainer}>
-            <Video src = {webvid} autoPlay muted loop className = {styles.videoplayer}/>
+            <video autoPlay muted loop className = {styles.videoplayer}>
+              <source src = {'/webvideo.mp4'} type = "video/mp4"/>
+            </video>
           </div>
         </div>
         <div className = {styles.leftContainer}>
