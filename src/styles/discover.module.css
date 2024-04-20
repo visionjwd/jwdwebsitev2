@@ -69,7 +69,7 @@
 }
 .webdesign{
     width: 90%;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -85,13 +85,29 @@
 }
 .webdevimage{
     width: 90%;
-    height: 50%;
+    height: 60%;
     background: url('../assets/webdev.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
+.realestateimage{
+    width: 90%;
+    height: 60%;
+    background: url('../assets/AIEstate.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.realestateimage button{
+    color: black;
+    background: rgba(255,255,255,0.5);
+}
 @media only screen and (max-width: 1200px){
     .works{
         height: 30vh;

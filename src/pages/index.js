@@ -26,6 +26,19 @@ export default function Home() {
         </div>
       </div>
       <div className = {styles.work}>
+        <div className = {styles.rightContainer} id = {styles.estate}>
+          <h1>LAUNCHING OUR <span>AI</span> REAL ESTATE SERVICE</h1>
+          <h3>Provide your customers with even more eye-catching photos of your properties, powered by AI. Transform your empty properties into visions of what could be possible.</h3>
+          <Link href = "/#contact">
+            <button>GET STARTED</button>
+          </Link>
+        </div>
+        <div className = {styles.leftContainer} id = {styles.estateLeft}>
+          <h2>Transform Your Property</h2>
+            <Link href = '/realestate'> <button>VIEW MORE</button></Link>
+        </div>
+      </div>
+      <div className = {styles.work}>
         <div className = {styles.rightContainer}>
           <div className = {styles.videoContainer}>
             <video autoPlay muted loop playsInline className = {styles.videoplayer}>
@@ -36,7 +49,6 @@ export default function Home() {
         <div className = {styles.leftContainer}>
           <h1>DISCOVER OUR WORK</h1>
           <Link href = '/discover'><button>VIEW ALL</button></Link>
-          
         </div>
       </div>
       <Contact/>

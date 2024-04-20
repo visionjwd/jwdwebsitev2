@@ -57,6 +57,20 @@ function discover() {
         </div>
         <div className = {styles.webdesign}>
             <div className = {styles.half}>
+                <div className = {styles.realestateimage}>
+                    <Link href = '/realestate'><button>VIEW GALLERY</button></Link>
+                </div>
+            </div>
+            <div className = {styles.half}>
+                <h1>REAL ESTATE</h1>
+                <h3>AI Powered image to showcase stunning potentials.</h3>
+                <Link href = '/#contact'>
+                    <button>GET STARTED</button>
+                </Link>
+            </div>
+        </div>
+        <div className = {styles.webdesign}>
+            <div className = {styles.half}>
                 <h1>WEB DESIGN</h1>
                 <h3>Stunning, fast website built with the latest tech.</h3>
                 <Link href = '/#contact'>
@@ -68,8 +82,8 @@ function discover() {
                 </div>
                     <h3>Proper, maintainable codebase with user-friendly front end. </h3>
             </div>
-
         </div>
+        
 
     </main>
   )

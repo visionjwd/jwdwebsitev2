@@ -39,11 +39,27 @@
 }
 .rightContainer{
   flex: 60%;
-  width: 80%;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.rightContainer h1{
+  font-size: 40px;
+}
+.rightContainer span{
+  border-radius: 3px;
+  padding: 0px 5px;
+  background: linear-gradient(90deg, rgba(255,0,9,1) 0%, rgba(219,0,148,1) 48%, rgba(255,149,0,1) 100%);
+}
+.rightContainer span:hover{
+  color: linear-gradient(90deg, rgba(255,0,9,1) 0%, rgba(219,0,148,1) 48%, rgba(255,149,0,1) 100%);
+}
+#estate{
+  flex: 45%;
+  padding: 5% 5% 2% 10%;
 }
 .videoContainer{
   width: 80%;
@@ -61,6 +77,7 @@
 }
 .leftContainer{
   flex: 40%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -71,14 +88,34 @@
 .leftContainer h1{
   font-size: 40px;
 }
+#estateLeft{
+  flex: 60%;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%), url('../assets/AIEstate.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#estateLeft h2{
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(255,0,9,1) 0%, rgba(219,0,148,1) 48%, rgba(255,149,0,1) 100%);
+}
 @media only screen and (max-width: 1200px){
   .work{
     height: 80%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
   }
   .videoplayer{
     height: 50%;
+  }
+  #estateLeft{
+    width: 100%;
+    height: 50vh;
   }
 }
 @media only screen and (max-width: 800px){
@@ -96,8 +133,11 @@
     .aboutText h1{
       font-size: 40px;
     }
-    .aboutText h3{
+    .aboutText h3, .rightContainer h3{
       font-size: 15px;
+    }
+    #estate{
+      width: 80%;
     }
     .work{
       height: 100%;
@@ -105,12 +145,22 @@
       flex-direction: column;
     }
     .rightContainer, .leftContainer{
-      width: 90%;
+      width: 80%;
     }
-    .leftContainer h1{
+    
+    .leftContainer h1, .rightContainer h1{
       font-size: 30px;
     }
     .videoplayer{
       height: 70%;
+    }
+    #estateLeft{
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 40%), url('../assets/AIEstate.jpg'); 
+      background-size: cover;
+      background-position: center;
+      padding: 150px 0px;
+    }
+    #estate{
+      padding-left: 5%;
     }
 }
