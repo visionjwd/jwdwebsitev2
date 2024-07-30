@@ -1,3 +1,4 @@
+'use client';
 
 import React, { useState } from 'react'
 import style from '../styles/Form.module.css'
@@ -40,7 +41,7 @@ function Form() {
 
   return ( 
       <div className = {style.form}>
-        <form className = {style.formContainer} data-netlify="true" onSubmit={handleSubmit}>
+        <form name = "contactform" className = {style.formContainer} data-netlify="true" onSubmit={handleSubmit}>
           <div className = {style.input}>
             <label>Name</label>
             <input
