@@ -15,6 +15,13 @@
     align-items: center;
     justify-content: center;
 }
+#videoheader{
+    height: 70vh;
+}
+.galleryHeader iframe{
+    height: 40vw;
+    width: 64vw;
+}
 .galleryDisplay{
     width: 90%;
     height: 100%;
@@ -43,6 +50,13 @@
     }
     .galleryHeader{
         width: 80%;
+    }
+    #videoheader{
+        height: 50vh;
+    }
+    .galleryHeader iframe{
+        width: 80vw;
+        height: 50vw;
     }
     .galleryTitle h1{
         font-size: 40px;

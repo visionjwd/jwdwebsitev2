@@ -32,8 +32,8 @@ function cinema() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className = {styles.galleryHeader}>
-        <h2></h2>
+      <div className = {styles.galleryHeader} id = {styles.videoheader}>
+        <iframe id = "first" src="https://www.youtube.com/embed/BHRR-FMpDP4" title="YouTube video player" frameBorder="0" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <div className = {styles.galleryDisplay}>
         <div className = {styles.galleryTitle}>
