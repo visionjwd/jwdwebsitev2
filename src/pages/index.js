@@ -40,6 +40,17 @@ export default function Home() {
       </div>
       <div className = {styles.work}>
         <div className = {styles.rightContainer}>
+          <h1>FEATURED</h1>
+          <h3>Special Documentary captured by us</h3>
+          <p>Capturing the essence of creativity through a photographer</p>
+        
+        </div>
+        <div className = {styles.leftContainer}>
+          <iframe src="https://www.youtube.com/embed/oBNTakUbmkA?si=MYFxfSocHGHZyqMZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div className = {styles.work}>
+        <div className = {styles.rightContainer}>
           <div className = {styles.videoContainer}>
             <video autoPlay muted loop playsInline className = {styles.videoplayer}>
               <source src = {'/webvideo.mp4'} type = "video/mp4"/>
@@ -51,6 +62,7 @@ export default function Home() {
           <Link href = '/discover'><button>VIEW ALL</button></Link>
         </div>
       </div>
+      
       <Contact/>
     </>
   )

@@ -46,6 +46,10 @@
   align-items: center;
   justify-content: center;
 }
+.leftContainer iframe{
+    height: 30vw;
+    width: 50vw;
+}
 .rightContainer h1{
   font-size: 40px;
 }
@@ -129,6 +133,10 @@
     }
     .leftContainer{
       padding-right: 0;
+    }
+    .leftContainer iframe{
+      width: 75vw;
+      height: 47vw;
     }
     .aboutText h1{
       font-size: 40px;
